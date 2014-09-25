@@ -1,0 +1,38 @@
+疑问1：
+#define IS_KEY1_DOWN() (!(GPIO_PORT_KEY1->IDR & GPIO_PIN_KEY1))
+#define IS_KEY2_DOWN() (!(GPIO_PORT_KEY2->IDR & GPIO_PIN_KEY1))
+这两个宏就可以判断键是不是已经按下了，按下就是1，没按就是0；
+IS_KEY1_UP() 
+IS_KEY2_UP()
+于是这个up我不明白干什么用的了，工程里就没写。
+
+疑问2：
+不确定判断过指针是否为空的这种写法对不对。（我写NULL==pchByte时，系统不知道NULL是啥。。是否要定义一个(void*)0为NULL）
+bool serial_in(uint8_t *pchByte)
+{
+  if(!pchByte){
+    return false;  
+  }
+ ……
+｝
+
+疑问3：
+“d)	绝对不允许在逻辑表达式中与true进行比较。”
+上面这句话在这个地方为什么会被允许，true和SET一样都是非0。
+if(SET != 和(USART1,USART_FLAG_TC)){
+    return false;
+}
+
+疑问4：
+您发给我的超级终端，只有接口串口显示功能么，我还没发现这个软件是不是能有发串口数据到板子上的功能。
+
+疑问5：
+TAB是要打4个空格么，我怎么打来的四个空格好长，比原来的TAB一下长一倍。
+
+
+
+
+
+
+
+

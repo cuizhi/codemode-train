@@ -1,0 +1,14 @@
+.\OUTPUT\Output\misc.o: STM32F10x_FWLib\src\misc.c
+.\OUTPUT\Output\misc.o: .\STM32F10x_FWLib\inc\misc.h
+.\OUTPUT\Output\misc.o: .\USER\inc\stm32f10x.h
+.\OUTPUT\Output\misc.o: .\m3_core\core_cm3.h
+.\OUTPUT\Output\misc.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\OUTPUT\Output\misc.o: .\USER\inc\system_stm32f10x.h
+.\OUTPUT\Output\misc.o: .\USER\inc\stm32f10x_conf.h
+.\OUTPUT\Output\misc.o: .\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+.\OUTPUT\Output\misc.o: .\USER\inc\stm32f10x.h
+.\OUTPUT\Output\misc.o: .\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+.\OUTPUT\Output\misc.o: .\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+.\OUTPUT\Output\misc.o: .\STM32F10x_FWLib\inc\stm32f10x_tim.h
+.\OUTPUT\Output\misc.o: .\STM32F10x_FWLib\inc\stm32f10x_usart.h
+.\OUTPUT\Output\misc.o: .\STM32F10x_FWLib\inc\misc.h

@@ -1,0 +1,15 @@
+.\OUTPUT\Output\led.o: hardware\src\led.c
+.\OUTPUT\Output\led.o: .\hardware\inc\led.h
+.\OUTPUT\Output\led.o: .\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+.\OUTPUT\Output\led.o: .\USER\inc\stm32f10x.h
+.\OUTPUT\Output\led.o: .\m3_core\core_cm3.h
+.\OUTPUT\Output\led.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\OUTPUT\Output\led.o: .\USER\inc\system_stm32f10x.h
+.\OUTPUT\Output\led.o: .\USER\inc\stm32f10x_conf.h
+.\OUTPUT\Output\led.o: .\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h
+.\OUTPUT\Output\led.o: .\USER\inc\stm32f10x.h
+.\OUTPUT\Output\led.o: .\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+.\OUTPUT\Output\led.o: .\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+.\OUTPUT\Output\led.o: .\STM32F10x_FWLib\inc\stm32f10x_tim.h
+.\OUTPUT\Output\led.o: .\STM32F10x_FWLib\inc\stm32f10x_usart.h
+.\OUTPUT\Output\led.o: .\STM32F10x_FWLib\inc\misc.h

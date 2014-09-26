@@ -1,0 +1,33 @@
+*** Creating Trace Output File '.\OUTPUT\Output\test2b.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\output\led_breathe.o"'
+### List of Objects: adding '".\output\output\main.o"'
+### List of Objects: adding '".\output\output\stm32f10x_it.o"'
+### List of Objects: adding '".\output\output\system_stm32f10x.o"'
+### List of Objects: adding '".\output\output\key.o"'
+### List of Objects: adding '".\output\output\led.o"'
+### List of Objects: adding '".\output\output\sys.o"'
+### List of Objects: adding '".\output\output\usart.o"'
+### List of Objects: adding '".\output\output\misc.o"'
+### List of Objects: adding '".\output\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\output\output\core_cm3.o"'
+### List of Objects: adding '".\output\output\startup_stm32f10x_hd.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\output\led_breathe.o" ".\output\output\main.o" ".\output\output\stm32f10x_it.o" ".\output\output\system_stm32f10x.o" ".\output\output\key.o" ".\output\output\led.o" ".\output\output\sys.o" ".\output\output\usart.o" ".\output\output\misc.o" ".\output\output\stm32f10x_gpio.o" ".\output\output\stm32f10x_rcc.o" ".\output\output\stm32f10x_usart.o" ".\output\output\core_cm3.o" ".\output\output\startup_stm32f10x_hd.o" 
+--strict --scatter ".\OUTPUT\Output\test2b.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\OUTPUT\Listing\test2b.map" -o .\OUTPUT\Output\test2b.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\OUTPUT\Output\test2b.axf'
+### ADS-LD Command File: '.\OUTPUT\Output\test2b.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\OUTPUT\Output\test2b.lnp', Handle=0x00000270
+### Writing '.lnp' file
+### ADS-LD Command file '.\OUTPUT\Output\test2b.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,6 +1,6 @@
 Dependencies for Project 'test2a', Target 'Target 1': (DO NOT MODIFY !)
-F (.\startup_stm32f10x_hd.s)(0x4F5835BC)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x --list "..\OBJ\startup_stm32f10x_hd.lst" --xref -o "..\OBJ\startup_stm32f10x_hd.o" --depend "..\OBJ\startup_stm32f10x_hd.d")
-F (.\main.c)(0x53FEE3F0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\main.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\main.crf" --depend "..\OBJ\main.d")
+F (.\startup_stm32f10x_hd.s)(0x54258ECD)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x --list "..\OBJ\startup_stm32f10x_hd.lst" --xref -o "..\OBJ\startup_stm32f10x_hd.o" --depend "..\OBJ\startup_stm32f10x_hd.d")
+F (.\main.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\main.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\main.crf" --depend "..\OBJ\main.d")
 I (..\SYSTEM\sys\sys.h)(0x53EA338C)
 I (..\USER\stm32f10x_it.h)(0x53EA32D9)
 I (..\USER\stm32f10x.h)(0x53EA3968)
@@ -17,7 +17,7 @@ I (..\STM32F10x_FWLib\inc\misc.h)(0x53EA333E)
 I (..\HARDWARE\LED\led.h)(0x53EA333D)
 I (..\HARDWARE\KEY\key.h)(0x53EA333B)
 I (..\HARDWARE\usart\usart.h)(0x53EA338E)
-F (.\stm32f10x_it.c)(0x53EA32D8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\stm32f10x_it.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\stm32f10x_it.crf" --depend "..\OBJ\stm32f10x_it.d")
+F (.\stm32f10x_it.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\stm32f10x_it.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\stm32f10x_it.crf" --depend "..\OBJ\stm32f10x_it.d")
 I (stm32f10x_it.h)(0x53EA32D9)
 I (stm32f10x.h)(0x53EA3968)
 I (..\CORE\core_cm3.h)(0x53EA325F)
@@ -31,7 +31,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x53EA3357)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53EA3367)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x53EA3368)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x53EA333E)
-F (.\system_stm32f10x.c)(0x53EA32E6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\system_stm32f10x.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\system_stm32f10x.crf" --depend "..\OBJ\system_stm32f10x.d")
+F (.\system_stm32f10x.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\system_stm32f10x.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\system_stm32f10x.crf" --depend "..\OBJ\system_stm32f10x.d")
 I (stm32f10x.h)(0x53EA3968)
 I (..\CORE\core_cm3.h)(0x53EA325F)
 I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
@@ -44,7 +44,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x53EA3357)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53EA3367)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x53EA3368)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x53EA333E)
-F (..\SYSTEM\sys\sys.c)(0x53EA338C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\sys.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\sys.crf" --depend "..\OBJ\sys.d")
+F (..\SYSTEM\sys\sys.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\sys.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\sys.crf" --depend "..\OBJ\sys.d")
 I (..\SYSTEM\sys\sys.h)(0x53EA338C)
 I (..\USER\stm32f10x_it.h)(0x53EA32D9)
 I (..\USER\stm32f10x.h)(0x53EA3968)
@@ -61,7 +61,7 @@ I (..\STM32F10x_FWLib\inc\misc.h)(0x53EA333E)
 I (..\HARDWARE\LED\led.h)(0x53EA333D)
 I (..\HARDWARE\KEY\key.h)(0x53EA333B)
 I (..\HARDWARE\usart\usart.h)(0x53EA338E)
-F (..\HARDWARE\LED\led.c)(0x53EA333C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\led.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\led.crf" --depend "..\OBJ\led.d")
+F (..\HARDWARE\LED\led.c)(0x54258ECC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\led.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\led.crf" --depend "..\OBJ\led.d")
 I (..\HARDWARE\LED\led.h)(0x53EA333D)
 I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53EA3346)
 I (..\USER\stm32f10x.h)(0x53EA3968)
@@ -74,7 +74,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x53EA3357)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53EA3367)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x53EA3368)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x53EA333E)
-F (..\HARDWARE\usart\usart.c)(0x53EA338D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\usart.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\usart.crf" --depend "..\OBJ\usart.d")
+F (..\HARDWARE\usart\usart.c)(0x54258ECC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\usart.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\usart.crf" --depend "..\OBJ\usart.d")
 I (..\HARDWARE\usart\usart.h)(0x53EA338E)
 I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x53EA3357)
 I (..\USER\stm32f10x.h)(0x53EA3968)
@@ -87,7 +87,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53EA3346)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53EA3367)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x53EA3368)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x53EA333E)
-F (..\HARDWARE\KEY\key.c)(0x53EA333A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\key.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\key.crf" --depend "..\OBJ\key.d")
+F (..\HARDWARE\KEY\key.c)(0x54258ECC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\key.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\key.crf" --depend "..\OBJ\key.d")
 I (..\HARDWARE\KEY\key.h)(0x53EA333B)
 I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53EA3346)
 I (..\USER\stm32f10x.h)(0x53EA3968)
@@ -100,7 +100,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x53EA3357)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53EA3367)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x53EA3368)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x53EA333E)
-F (..\STM32F10x_FWLib\src\misc.c)(0x53EA336F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\misc.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\misc.crf" --depend "..\OBJ\misc.d")
+F (..\STM32F10x_FWLib\src\misc.c)(0x54258ECC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\misc.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\misc.crf" --depend "..\OBJ\misc.d")
 I (..\STM32F10x_FWLib\inc\misc.h)(0x53EA333E)
 I (..\USER\stm32f10x.h)(0x53EA3968)
 I (..\CORE\core_cm3.h)(0x53EA325F)
@@ -112,7 +112,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53EA3346)
 I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x53EA3357)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53EA3367)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x53EA3368)
-F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x53EA337F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\stm32f10x_gpio.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\stm32f10x_gpio.crf" --depend "..\OBJ\stm32f10x_gpio.d")
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\stm32f10x_gpio.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\stm32f10x_gpio.crf" --depend "..\OBJ\stm32f10x_gpio.d")
 I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53EA3346)
 I (..\USER\stm32f10x.h)(0x53EA3968)
 I (..\CORE\core_cm3.h)(0x53EA325F)
@@ -124,7 +124,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x53EA3357)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53EA3367)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x53EA3368)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x53EA333E)
-F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x53EA3387)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\stm32f10x_rcc.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\stm32f10x_rcc.crf" --depend "..\OBJ\stm32f10x_rcc.d")
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\stm32f10x_rcc.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\stm32f10x_rcc.crf" --depend "..\OBJ\stm32f10x_rcc.d")
 I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x53EA3357)
 I (..\USER\stm32f10x.h)(0x53EA3968)
 I (..\CORE\core_cm3.h)(0x53EA325F)
@@ -136,7 +136,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53EA3346)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53EA3367)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x53EA3368)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x53EA333E)
-F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x53EA3398)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\stm32f10x_usart.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\stm32f10x_usart.crf" --depend "..\OBJ\stm32f10x_usart.d")
+F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\stm32f10x_usart.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\stm32f10x_usart.crf" --depend "..\OBJ\stm32f10x_usart.d")
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x53EA3368)
 I (..\USER\stm32f10x.h)(0x53EA3968)
 I (..\CORE\core_cm3.h)(0x53EA325F)
@@ -148,5 +148,5 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x53EA3346)
 I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x53EA3357)
 I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x53EA3367)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x53EA333E)
-F (..\CORE\core_cm3.c)(0x53EA3261)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\core_cm3.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\core_cm3.crf" --depend "..\OBJ\core_cm3.d")
+F (..\CORE\core_cm3.c)(0x54258ECC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --asm --interleave --asm_dir "..\\OBJ\\" -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\usart -I..\STM32F10x_FWLib\inc -I..\SYSTEM\sys -I..\USER -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o "..\OBJ\core_cm3.o" --list_dir "..\\OBJ\\" --list --omf_browse "..\OBJ\core_cm3.crf" --depend "..\OBJ\core_cm3.d")
 I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)

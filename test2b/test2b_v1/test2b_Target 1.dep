@@ -1,150 +1,0 @@
-Dependencies for Project 'test2b', Target 'Target 1': (DO NOT MODIFY !)
-F (.\USER\src\main.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\hardware\inc -I.\m3_core -I.\STM32F10x_FWLib\inc -I.\USER\inc -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\OUTPUT\Output\main.o" --omf_browse ".\OUTPUT\Output\main.crf" --depend ".\OUTPUT\Output\main.d")
-I (.\hardware\inc\sys.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x_it.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x.h)(0x54258ECD)
-I (.\m3_core\core_cm3.h)(0x54258ECD)
-I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
-I (.\USER\inc\system_stm32f10x.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x_conf.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\misc.h)(0x54258ECD)
-I (.\hardware\inc\led.h)(0x54258ECD)
-I (.\hardware\inc\key.h)(0x54258ECD)
-I (.\hardware\inc\usart.h)(0x54258ECD)
-F (.\USER\src\stm32f10x_it.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\hardware\inc -I.\m3_core -I.\STM32F10x_FWLib\inc -I.\USER\inc -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\OUTPUT\Output\stm32f10x_it.o" --omf_browse ".\OUTPUT\Output\stm32f10x_it.crf" --depend ".\OUTPUT\Output\stm32f10x_it.d")
-I (.\USER\inc\stm32f10x_it.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x.h)(0x54258ECD)
-I (.\m3_core\core_cm3.h)(0x54258ECD)
-I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
-I (.\USER\inc\system_stm32f10x.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x_conf.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\misc.h)(0x54258ECD)
-F (.\USER\src\system_stm32f10x.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\hardware\inc -I.\m3_core -I.\STM32F10x_FWLib\inc -I.\USER\inc -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\OUTPUT\Output\system_stm32f10x.o" --omf_browse ".\OUTPUT\Output\system_stm32f10x.crf" --depend ".\OUTPUT\Output\system_stm32f10x.d")
-I (.\USER\inc\stm32f10x.h)(0x54258ECD)
-I (.\m3_core\core_cm3.h)(0x54258ECD)
-I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
-I (.\USER\inc\system_stm32f10x.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x_conf.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\misc.h)(0x54258ECD)
-F (.\hardware\src\key.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\hardware\inc -I.\m3_core -I.\STM32F10x_FWLib\inc -I.\USER\inc -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\OUTPUT\Output\key.o" --omf_browse ".\OUTPUT\Output\key.crf" --depend ".\OUTPUT\Output\key.d")
-I (.\hardware\inc\key.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x.h)(0x54258ECD)
-I (.\m3_core\core_cm3.h)(0x54258ECD)
-I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
-I (.\USER\inc\system_stm32f10x.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x_conf.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\misc.h)(0x54258ECD)
-F (.\hardware\src\led.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\hardware\inc -I.\m3_core -I.\STM32F10x_FWLib\inc -I.\USER\inc -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\OUTPUT\Output\led.o" --omf_browse ".\OUTPUT\Output\led.crf" --depend ".\OUTPUT\Output\led.d")
-I (.\hardware\inc\led.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x.h)(0x54258ECD)
-I (.\m3_core\core_cm3.h)(0x54258ECD)
-I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
-I (.\USER\inc\system_stm32f10x.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x_conf.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\misc.h)(0x54258ECD)
-F (.\hardware\src\sys.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\hardware\inc -I.\m3_core -I.\STM32F10x_FWLib\inc -I.\USER\inc -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\OUTPUT\Output\sys.o" --omf_browse ".\OUTPUT\Output\sys.crf" --depend ".\OUTPUT\Output\sys.d")
-I (.\hardware\inc\sys.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x_it.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x.h)(0x54258ECD)
-I (.\m3_core\core_cm3.h)(0x54258ECD)
-I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
-I (.\USER\inc\system_stm32f10x.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x_conf.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\misc.h)(0x54258ECD)
-I (.\hardware\inc\led.h)(0x54258ECD)
-I (.\hardware\inc\key.h)(0x54258ECD)
-I (.\hardware\inc\usart.h)(0x54258ECD)
-F (.\hardware\src\usart.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\hardware\inc -I.\m3_core -I.\STM32F10x_FWLib\inc -I.\USER\inc -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\OUTPUT\Output\usart.o" --omf_browse ".\OUTPUT\Output\usart.crf" --depend ".\OUTPUT\Output\usart.d")
-I (.\hardware\inc\usart.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x.h)(0x54258ECD)
-I (.\m3_core\core_cm3.h)(0x54258ECD)
-I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
-I (.\USER\inc\system_stm32f10x.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x_conf.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\misc.h)(0x54258ECD)
-F (.\STM32F10x_FWLib\src\misc.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\hardware\inc -I.\m3_core -I.\STM32F10x_FWLib\inc -I.\USER\inc -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\OUTPUT\Output\misc.o" --omf_browse ".\OUTPUT\Output\misc.crf" --depend ".\OUTPUT\Output\misc.d")
-I (.\STM32F10x_FWLib\inc\misc.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x.h)(0x54258ECD)
-I (.\m3_core\core_cm3.h)(0x54258ECD)
-I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
-I (.\USER\inc\system_stm32f10x.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x_conf.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x54258ECD)
-F (.\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\hardware\inc -I.\m3_core -I.\STM32F10x_FWLib\inc -I.\USER\inc -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\OUTPUT\Output\stm32f10x_gpio.o" --omf_browse ".\OUTPUT\Output\stm32f10x_gpio.crf" --depend ".\OUTPUT\Output\stm32f10x_gpio.d")
-I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x.h)(0x54258ECD)
-I (.\m3_core\core_cm3.h)(0x54258ECD)
-I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
-I (.\USER\inc\system_stm32f10x.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x_conf.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\misc.h)(0x54258ECD)
-F (.\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\hardware\inc -I.\m3_core -I.\STM32F10x_FWLib\inc -I.\USER\inc -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\OUTPUT\Output\stm32f10x_rcc.o" --omf_browse ".\OUTPUT\Output\stm32f10x_rcc.crf" --depend ".\OUTPUT\Output\stm32f10x_rcc.d")
-I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x.h)(0x54258ECD)
-I (.\m3_core\core_cm3.h)(0x54258ECD)
-I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
-I (.\USER\inc\system_stm32f10x.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x_conf.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\misc.h)(0x54258ECD)
-F (.\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\hardware\inc -I.\m3_core -I.\STM32F10x_FWLib\inc -I.\USER\inc -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\OUTPUT\Output\stm32f10x_usart.o" --omf_browse ".\OUTPUT\Output\stm32f10x_usart.crf" --depend ".\OUTPUT\Output\stm32f10x_usart.d")
-I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x.h)(0x54258ECD)
-I (.\m3_core\core_cm3.h)(0x54258ECD)
-I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
-I (.\USER\inc\system_stm32f10x.h)(0x54258ECD)
-I (.\USER\inc\stm32f10x_conf.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x54258ECD)
-I (.\STM32F10x_FWLib\inc\misc.h)(0x54258ECD)
-F (.\m3_core\core_cm3.c)(0x54258ECD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\hardware\inc -I.\m3_core -I.\STM32F10x_FWLib\inc -I.\USER\inc -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x -o ".\OUTPUT\Output\core_cm3.o" --omf_browse ".\OUTPUT\Output\core_cm3.crf" --depend ".\OUTPUT\Output\core_cm3.d")
-I (D:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
-F (.\m3_core\startup_stm32f10x_hd.s)(0x54258ECD)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC -I D:\Keil\ARM\CMSIS\Include -I D:\Keil\ARM\Inc\ST\STM32F10x --list ".\OUTPUT\Listing\startup_stm32f10x_hd.lst" --xref -o ".\OUTPUT\Output\startup_stm32f10x_hd.o" --depend ".\OUTPUT\Output\startup_stm32f10x_hd.d")

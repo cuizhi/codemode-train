@@ -63,8 +63,8 @@ static fsm_rt_t task_print(void)
     
     static enum{
         TASK_PRINT_START,
-        TASK_PRINT_WAIT,
-        TASK_PRINT_BUSY
+        TASK_PRINT_WAIT,  //平时不做事
+        TASK_PRINT_BUSY   //有触发事件了，做事。
     }s_tTaskPrintState = TASK_PRINT_START;
     
     switch(s_tTaskPrintState){
@@ -72,12 +72,12 @@ static fsm_rt_t task_print(void)
             INIT_EVENT(s_tEvent,false,true);  //对事件进行初始化
             s_tTaskPrintState = TASK_PRINT_WAIT;
         case TASK_PRINT_WAIT:
-            if(WAIT_EVENT(s_tEvent)) {  //对事件进行判断，从而决定是否触发打印。
+            if(WAIT_EVENT(s_tEvent)) {  //是不是有触发事件通知我开始做事
                 RESET_EVENT(s_tEvent);
                 s_tTaskPrintState = TASK_PRINT_BUSY; 
             }
             break;
-        case TASK_PRINT_BUSY:
+        case TASK_PRINT_BUSY:  //工作中
             if(fsm_rt_cpl == print()){
                 TASK_PRINT_RESET_FSM();
                 return fsm_rt_cpl;
@@ -102,7 +102,7 @@ static fsm_rt_t task_delay(void)
             s_tTaskDelayState = TASK_DELAY_COUNT;
         case TASK_DELAY_COUNT:
             if(fsm_rt_cpl == delay()){
-                SET_EVENT(s_tEvent); //事件，这个事件导致了打印的开始
+                SET_EVENT(s_tEvent); //事件，事件让print工作
                 TASK_DELAY_RESET_FSM();
                 return fsm_rt_cpl;
             }
